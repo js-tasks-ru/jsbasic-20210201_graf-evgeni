@@ -4,5 +4,5 @@
  * @returns {string}
  */
 function ucFirst(str) {
-  // ваш код...
+  return str.toUpperCase[0];
 }
