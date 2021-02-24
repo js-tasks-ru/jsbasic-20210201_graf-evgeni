@@ -8,11 +8,9 @@ function print(text) {
 /**
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
- * @param {string | null} name
- * @returns {boolean}
  */
 function isValid(name) {
-   return !!name && !name.includes(' ') && name.length >= 4; 
+  return !!name && !name.includes(' ') && name.length >= 4; 
 
 }
 
